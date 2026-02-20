@@ -2,7 +2,7 @@
 
 Visualize semantic scene graphs and annotate them by placing 3D bounding boxes, interactively!
 
-<video src="https://github.com/Velythyl/SemanticSceneGraphVis/blob/main/assets/semantic_scene_graph_vis.mp4" width="1920" height="1080"></video>
+<video src="assets/semantic_scene_graph_vis.mp4" controls></video>
 
 # Installation
 
