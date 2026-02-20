@@ -1,0 +1,6 @@
+# @package _global_
+cache_dir: ${hydra:runtime.cwd}/DATAPIPES/MODEL_CACHE
+data_dir: ${hydra:runtime.cwd}/DATAPIPES/INPUT
+output_dir: ${hydra:runtime.cwd}/DATAPIPES/OUTPUT
+map_path: ${output_dir}/latest_map
+arcs_output_dir: ${output_dir}
