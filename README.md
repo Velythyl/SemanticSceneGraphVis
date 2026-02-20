@@ -3,9 +3,7 @@
 Visualize semantic scene graphs and annotate them by placing 3D bounding boxes, interactively!
 
 
-
-
-[<img src="https://www.youtube.com/watch?v=bkwQ_Hzc6Sk" width="600" height="300"
+[<img src="https://img.youtube.com/vi/bkwQ_Hzc6Sk/maxresdefault.jpg" width="600" height="300"
 />](https://youtu.be/bkwQ_Hzc6Sk)
 
 
