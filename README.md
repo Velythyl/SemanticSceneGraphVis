@@ -2,7 +2,8 @@
 
 Visualize semantic scene graphs and annotate them by placing 3D bounding boxes, interactively!
 
-<video src="assets/semantic_scene_graph_vis.mp4" controls></video>
+<iframe width="560" height="315" src="https://youtu.be/bkwQ_Hzc6Sk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 # Installation
 
