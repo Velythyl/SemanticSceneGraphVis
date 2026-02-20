@@ -1,49 +1,31 @@
 # vis
 
-Standalone visualization package split out from the main `cg` workspace.
+Visualize semantic scene graphs and annotate them by placing 3D bounding boxes, interactively!
 
-This folder is structured as if it were its own repository, so the Python package is intentionally nested:
-
-- package root: `vis/`
-- module path example: `vis/vis_with_viser.py`
-- full workspace path example: `vis/vis/vis_with_viser.py`
-
-## Setup
-
-From this folder (`cg/vis`):
+# Installation
 
 ```bash
-uv venv
-uv pip install -e .
+uv sync
 ```
 
-Or with pip:
+# Running it
 
 ```bash
-python -m venv .venv
-source .venv/bin/activate
-pip install -e .
+uv run vis/vis_with_viser.py
 ```
 
-## Run
+You can tune paths by changing `vis/conf`
 
-```bash
-python -m vis.vis_with_viser
-```
+# Annotations
 
-To inspect resolved Hydra config:
+Use the Box Annotator feature to place boxes. Save to file using `Save / Load`
 
-```bash
-python -m vis.vis_with_viser --cfg job --resolve
-```
+# Supported input maps
 
-## Included assets
-
-- Runtime configs: `vis/conf/`
-- Internal docs: `vis/docs/`
-- Core utility modules: `vis/core/`
+- ConceptGraphs https://github.com/sachaMorin/concept-nodes
+- A dense point cloud (name it as `dense_point_cloud.pcd`)
+- You can display videos by naming them as `rgb.mp4`, `depth.mp4` and `rgbd.mp4`
 
 ## Notes
 
-- The nested `vis/vis` path is temporary by design while this package is still inside the parent monorepo.
-- Once moved to its own repository, this becomes the standard `repo_root/vis/...` layout.
+- Libraries used to build this software have their own licenses, which you should be aware of before running this software.
