@@ -9,7 +9,7 @@ Visualize semantic scene graphs and annotate them by placing 3D bounding boxes, 
 	</a>
 </p>
 
-<p align="center" style="text-color: gray">Click image to watch video</p>
+<p align="center">Click image to watch video</p>
 
 
 
